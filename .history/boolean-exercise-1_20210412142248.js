@@ -20,7 +20,7 @@ console.log("3" === "3"); // true, because both strings are equal
 // #### 2. Not
 // * Store the value `true` to a variable. Using a ternary operator,print the `false` option by checking the value of the initial variable.
 const varOne = true;
-const turneryOp = (varOne !== true) ? "It's true" : "It's false";
+const turneryOp = (varOne === true) ? "It's true" : "It's false";
 console.log(turneryOp);
 
 
